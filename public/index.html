@@ -1,10 +1,17 @@
 <html>
     <head>
-        <script src="package.json" type="text/javascript" defer></script>
+        <link rel="stylesheet" type="text/css" href="prova.css">
+        <script src="bootstrap.bundle.min.js"></script>
         <link rel="stylesheet" type="text/css" href="index.css">
     </head>
     <body>
         <header>Loremipsum</header>
+        <nav class="nav">
+            <a class="nav-link active" aria-current="page" href="#">Active</a>
+            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link disabled">Disabled</a>
+          </nav>
         <div class="esquerra">
             <h5>La mitologia grega és un conjunt de mites i llegendes pertanyents a la religió de l'antiga Grècia que tracten dels seus déus i herois, la naturalesa del món, els orígens i significat dels seus cultes i les pràctiques rituals. Els investigadors moderns recorren als mites per aprofundir en l'estudi de les institucions religioses i polítiques de l'antiga Grècia i la seva civilització, així com per entendre millor la naturalesa de la mateixa creació dels mites.
 
@@ -15,6 +22,62 @@
                 Les troballes arqueològiques suposen una important font de detalls sobre la mitologia grega, amb déus i herois presents prominentment en la decoració de molts objectes. Dissenys geomètrics sobre ceràmica del segle viii aC representen escenes del cicle troià, així com aventures d'Hèracles. En els subsegüents períodes arcaic, clàssic i hel·lenístic apareixen escenes mitològiques basades en els relats mitològics.
                 
                 La mitologia grega ha exercit una àmplia influència sobre la cultura, l'art i la literatura de la civilització occidental i segueix sent part del patrimoni i llenguatge cultural occidentals. Poetes i artistes han trobat inspiració en ella des de les èpoques antigues fins a l'actualitat i han descobert significat i rellevància contemporanis en els temes mitològics clàssics.</h5>
-        </div>  
+        </div> 
+        <div class="d-flex flex-column h-100">
+
+            <!-- FOR DEMO PURPOSE -->
+            <section class="hero text-white py-5 flex-grow-1">
+                <div class="container py-4">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <h1 class="display-4">Bootstrap footer bottom</h1>
+                            <p class="fst-italic text-muted">Using Bootstrap 5 flexbox utilities, create a footer that always sticks to the bottom of your viewport. Snippet by <a class="text-primary" href="https://bootstrapious.com/" target="_blank">Bootstrapious</a></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+        
+            <!-- FOOTER -->
+            <footer class="w-100 py-4 flex-shrink-0">
+                <div class="container py-4">
+                    <div class="row gy-4 gx-5">
+                        <div class="col-lg-4 col-md-6">
+                            <h5 class="h1 text-white">FB.</h5>
+                            <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                            <p class="small text-muted mb-0">&copy; Copyrights. All rights reserved. <a class="text-primary" href="#">Bootstrapious.com</a></p>
+                        </div>
+                        <div class="col-lg-2 col-md-6">
+                            <h5 class="text-white mb-3">Quick links</h5>
+                            <ul class="list-unstyled text-muted">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Get started</a></li>
+                                <li><a href="#">FAQ</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-2 col-md-6">
+                            <h5 class="text-white mb-3">Quick links</h5>
+                            <ul class="list-unstyled text-muted">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Get started</a></li>
+                                <li><a href="#">FAQ</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <h5 class="text-white mb-3">Newsletter</h5>
+                            <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                            <form action="#">
+                                <div class="input-group mb-3">
+                                    <input class="form-control" type="text" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+                                    <button class="btn btn-primary" id="button-addon2" type="button"><i class="fas fa-paper-plane"></i></button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
     </body>
 </html>
